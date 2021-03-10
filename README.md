@@ -34,7 +34,7 @@ Después vienen los atributos de la clase, todos privados para que solo se pueda
 
 #### Constructores
 1. Constructor vacío. Utiliza el valor que le dimos al entero MAX para inicializar el arreglo. 
-Al entero tope se le asigna un menos uno como bandera de error que indica que aún no hay ningún elemento en la pila.
+Al entero tope se le asigna un menos uno como bandera de error que indica que la pila está vacía.
 ```java
 public PilaArreglo(){
         pila= (T[]) new Object[MAX];
