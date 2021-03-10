@@ -17,7 +17,7 @@ Para trabajar con Java es necesario un IDE que permita usar el lenguaje. NetBean
 
 ## Clase Base
 
-La clase pública que tendrá todos los métodos que le darán la funcionalidad a la pila será esta, PilaArreglo.
+PilaArreglo será la clase pública que tendrá todos los métodos que le darán la funcionalidad a la pila.
 Declaramos a nuestras clase con el tipo < T > para que acepte cualquier objeto como int, String, float, etc.
 Implementamos a PilaADT para indicar que nuestra clase será la que tendrá los métodos, pero PilaADT será la que los implementará.
 ```java
@@ -33,8 +33,8 @@ Después vienen los atributos de la clase, todos privados para que solo se pueda
 <img src="http://1.bp.blogspot.com/-QTDcpd1_kyc/Uo1kL7cgH0I/AAAAAAAAAIc/Sh46LQr7Nas/s1600/pi.png" alt="Tope" width="200"/>
 
 #### Constructores
-1. Constructor vacío. Utiliza el valor que le dimos al entero MAX para inicializar el arreglo, ya que un arreglo necesita un tamaño inicial para poder crearse. 
-Al entero tope se le asigna un menos uno como bandera de error que indica que aún no hay ningún elemento en la pila, en el arreglo.
+1. Constructor vacío. Utiliza el valor que le dimos al entero MAX para inicializar el arreglo. 
+Al entero tope se le asigna un menos uno como bandera de error que indica que aún no hay ningún elemento en la pila.
 ```java
 public PilaArreglo(){
         pila= (T[]) new Object[MAX];
