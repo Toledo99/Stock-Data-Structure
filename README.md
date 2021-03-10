@@ -12,9 +12,7 @@ Cómo crear un clase Pila (en inglés, Stock) con la funcionalidad mínima reque
 
 ## Instalaciones y tecnología
 
-Para trabajar con Java es necesario un IDE que permita usar el lenguaje. NetBeans 8.2 es una de las opciones y se puede [descargar gratuitamente.](https://www.oracle.com/technetwork/es...) 
-
-Para instalarlo correctamente se puede ver un [tutorial en Youtube.](https://www.youtube.com/watch?v=WtKS7J7kVl8)
+Para trabajar con Java es necesario un IDE que permita usar el lenguaje. NetBeans 8.2 es una de las opciones y se puede [descargar gratuitamente.](https://www.oracle.com/technetwork/es...) Para instalarlo correctamente se puede ver un [tutorial en Youtube.](https://www.youtube.com/watch?v=WtKS7J7kVl8)
 
 
 ## Clase Base
