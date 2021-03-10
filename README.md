@@ -58,7 +58,7 @@ public PilaArreglo(int max){
         return tope <= -1;
     }
 ```  
-2. **push**: insertar un elemento a la pila. Este método aumenta en uno el tope para que coincida con el nuevo tope y si no hay espacio para un elemento más en el arreglo llama al método auxiliar **expande** que duplicará el tamaño del arreglo para tener el espacio suficiente.
+2. **push**: inserta un elemento a la pila. Este método aumenta en uno el tope para que coincida con el nuevo tope y si no hay espacio para un elemento más en el arreglo llama al método auxiliar **expande** que duplicará el tamaño del arreglo para tener el espacio suficiente.
 ```java
     public void push (T dato){
         if(tope+1 == pila.length)
@@ -99,7 +99,7 @@ Ambos regresan el elemento que está en el tope, pero peek solo lo muestra y pop
         return this.tope;
     }
 ```
-5. **multipop**: permite sacar muchos elementos a la vez si tenemos la cantidad que queremos sacar y la pila, y un **main** para probar los métodos. Ninguno de estos es necesario para el funcionamiento normal de la Pila. Son métodos extra.
+5. **multipop**: permite sacar muchos elementos a la vez si la pila tiene esa cantidad. **main**: para probar los métodos. Ninguno de estos es necesario para el funcionamiento normal de la Pila.
 ```java
     public void multiPop(int num, PilaADT<T> pila){
         
